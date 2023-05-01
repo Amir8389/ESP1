@@ -1,0 +1,101 @@
+
+body {
+    background: #060016;
+font-family: 'Lora', serif;
+font-style: normal;
+    font-weight: 300;
+overflow-x: hidden;
+color: #00ff1e;
+}
+
+#particles-js {
+position: absolute;
+width: 100%;
+height: 99.1%;
+top: 0;
+left: 0;
+}
+
+button{
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    min-width: 100px;
+    display: inline-block;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow;
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.button1{
+    left: -100px;
+    background: rgba(158,158,158,.2);
+    top: 9px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 255), 0 -2px 20px 0px rgb(255 0 0), -4px 4px 20px 0 rgb(0 255 0);
+}
+.button2{
+	left: -100px;
+    color: rgb(0 0 0);
+    background-color: rgb(255 255 255);
+    top: 9px;
+    box-shadow: 2px 2px 20px 0 rgb(255 255 50), 2px -4px 20px 0px rgb(255 104 0), -4px 4px 20px 0 rgb(255 0 0);
+}
+.button3{
+    background: rgba(158,158,158,.2);
+    top: 100px;
+    left: -100px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 255), 0 -2px 20px 0px rgb(255 0 0), -4px 4px 20px 0 rgb(0 255 0);
+}
+.button4{
+	top: 100px;
+    left: -100px;
+    color: rgb(0 0 0);
+    background-color: rgb(255 255 255);
+    box-shadow: 2px 2px 20px 0 rgb(255 255 50), 2px -4px 20px 0px rgb(255 104 0), -4px 4px 20px 0 rgb(255 0 0);
+}
+.button5{
+    background: rgba(158,158,158,.2);
+    top: -20px;
+    left: 100px;
+    box-shadow: 2px 2px 20px 0 rgb(0 0 255), 0 -2px 20px 0px rgb(255 0 0), -4px 4px 20px 0 rgb(0 255 0);
+}
+.button6{
+	top: -20px;
+    left: 100px;
+    color: rgb(0 0 0);
+    background-color: rgb(255 255 255);
+    box-shadow: 2px 2px 20px 0 rgb(255 255 50), 2px -4px 20px 0px rgb(255 104 0), -4px 4px 20px 0 rgb(255 0 0);
+}
+.pc{
+    top: -340px;
+    left: 100px;
+    background: rgb(255 255 0);
+    box-shadow:2px 2px 20px 0
+    rgb(240 0 255), 0 -2px 20px 0px rgb(0 203 255), -4px 4px 20px 0 rgb(255 0 0);
+    color:#000;
+}
+.hed{
+	color: inherit;
+	position: relative;
+}
+.hred{
+	color: inherit;
+	text-decoration: none;
+}
+.ir{
+	position: relative;
+}
